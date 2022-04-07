@@ -1,0 +1,12 @@
+
+.gallery{
+    width: 900px;
+}
+
+@media(max-width:512px) {
+    .gallery{
+        width: 400px;
+        margin-top: 150px;
+        margin-left: -25px;
+    }
+}

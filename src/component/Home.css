@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    background-color: lavender;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email],input[type=tel] {
+  width: 415px;
+  padding:  5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+ 
+
+.info {
+    padding-left: 60%;
+}
+
+.submit{
+    padding-left: 75%;
+    margin-top: 4%;
+    margin-left: 25%;
+  
+}
+
+.btn {
+  background-color: #28a745;
+  width: 125px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color:#007bff;
+}
+
+.split{
+  display: flex;
+}
+
+@media (max-width: 512px) {
+  .split{
+    display: flex;
+    flex-direction: column;
+  }
+  .person{
+    margin-right: 290px;
+  }
+  input[type=text], input[type=email],input[type=tel] {
+    width: 350px;
+    padding:  5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+}
+  

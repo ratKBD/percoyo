@@ -1,0 +1,29 @@
+.app{
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.logo{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+
+
+.percoyo{
+    height: 360px;
+}
+@media only screen and (max-width: 1024px) {
+    .percoyo {
+      height: 500px;
+    }
+  }
+  
+  @media only screen and (max-width: 512px) {
+    .logo{
+      padding-top: 30px;
+      height: 80px;
+      width: 100px;
+    }
+  }
